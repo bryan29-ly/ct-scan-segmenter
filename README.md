@@ -29,7 +29,7 @@ The pipeline: `CT Slice → U-Net Segmentation → Structure Analysis → Mistra
 The segmentation model at the core of ScanAssist was developed during the **[ENS × Raidium Data Challenge](https://challengedata.ens.fr/)**, a national data science competition organized by ENS Paris and Raidium, focused on medical image segmentation. The model **reached the top 5** of the competition leaderboard.
 
 The full training code, experiments, and methodology are available in the dedicated repository:
-👉 **[ens-data-challenge](https://github.com/bryan29-ly/ENSxRaidium-Data-Challenge)** — training pipeline, loss functions, data processing, and evaluation.
+👉 **[ENSxRaidium-Data-Challenge](https://github.com/bryan29-ly/ENSxRaidium-Data-Challenge)** — training pipeline, loss functions, data processing, and evaluation.
 
 ### Why this competition was interesting
 
