@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+weights/
+venv
+.streamlit/
+*.egg-info/
+dist/
+build/
+.DS_Store

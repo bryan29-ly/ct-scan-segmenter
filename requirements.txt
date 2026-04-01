@@ -1,0 +1,6 @@
+torch>=2.0
+numpy
+matplotlib
+streamlit>=1.30
+huggingface-hub
+requests
