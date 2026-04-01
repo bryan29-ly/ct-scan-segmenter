@@ -29,7 +29,7 @@ The pipeline: `CT Slice → U-Net Segmentation → Structure Analysis → Mistra
 The segmentation model at the core of ScanAssist was developed during the **[ENS × Raidium Data Challenge](https://challengedata.ens.fr/)**, a national data science competition organized by ENS Paris and Raidium, focused on medical image segmentation. The model **reached the top 5** of the competition leaderboard.
 
 The full training code, experiments, and methodology are available in the dedicated repository:
-👉 **[ens-data-challenge](https://github.com/YOUR_USERNAME/ens-data-challenge)** — training pipeline, loss functions, data processing, and evaluation.
+👉 **[ens-data-challenge](https://github.com/bryan29-ly/ENSxRaidium-Data-Challenge)** — training pipeline, loss functions, data processing, and evaluation.
 
 ### Why this competition was interesting
 
@@ -60,13 +60,13 @@ A model that ranks well in a competition isn't a product. **ScanAssist is an exe
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ct-scan-segmenter.git
+git clone https://github.com/bryan29-ly/ct-scan-segmenter.git
 cd ct-scan-segmenter
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Model weights (~280 MB) download automatically from [Hugging Face](https://huggingface.co/YOUR_USERNAME/ct-scan-segmenter) on first launch.
+Model weights (~280 MB) download automatically from [Hugging Face](https://huggingface.co/bryan29-ly/ct-scan-segmenter) on first launch.
 
 ### Mistral AI report (optional)
 
@@ -105,7 +105,7 @@ This demo is a proof of concept. Here's how it could evolve into a real clinical
 ## Data & credits
 
 - **CT images** from the [TotalSegmentator](https://github.com/wasserth/TotalSegmentator) dataset (Wasserthal et al., 2023), provided through the ENS × Raidium challenge
-- **Challenge** organized by [ENS Paris](https://www.ens.fr/) and [Raidium](https://www.raidium.com/)
+- **Challenge** organized by [ENS Paris](https://www.ens.fr/) and [Raidium](https://raidium.eu/)
 - **AI reports** powered by [Mistral AI](https://mistral.ai/)
 
 ## License
